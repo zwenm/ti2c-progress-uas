@@ -12,13 +12,15 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
         <div class="container">
-            <a class="navbar-brand" href="index.php">Sou Store</a>
+            <a class="navbar-brand" href="index.php">
+                <strong>Sou Store</strong>
+            </a>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav m-auto">
                     <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <input class="form-control me-2 search" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
                 </ul>
@@ -36,7 +38,7 @@
 
     <section>
         <div class="container">
-            <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+            <div id="carouselExampleRide" class="carousel slide mt-5" data-bs-ride="true">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
                         class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -58,19 +60,63 @@
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
             </div>
         </div>
         </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Outfit Categories</h2>
+                    <div class="category-container d-flex flex-wrap justify-content-around">
+                        <a href="#" class="category-item text-center p-3 rounded">
+                            <i class="fas fa-laptop"></i>
+                            <p>Man</p>
+                        </a>
+                        <a href="#" class="category-item text-center p-3 rounded">
+                            <i class="fas fa-mobile"></i>
+                            <p>Woman</p>
+                        </a>
+                        <a href="#" class="category-item text-center p-3 rounded">
+                            <i class="fas fa-headphones"></i>
+                            <p>Sportwear</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="product-card card shadow-sm">
+                        <img src="your-image1.jpg" class="card-img-top" alt="Product Image 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Name 1</h5>
+                            <p class="card-text">A short description of product 1.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$19.99</span>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="product-card card shadow-sm">
+                        <img src="your-image2.jpg" class="card-img-top" alt="Product Image 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Name 2</h5>
+                            <p class="card-text">A short description of product 2.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <span class="price">$29.99</span>
+                                <a href="#" class="btn btn-primary">Buy Now</a>
+                                <a href="#" class="btn btn-primary">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </section>
 
     <script src="./vendor/twbs/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
