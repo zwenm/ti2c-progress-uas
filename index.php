@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="./vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.5.0/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src='main.js'></script>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="index.php">
                 <strong>Sou Store</strong>
@@ -94,7 +95,7 @@
                             <p class="card-text">A short description of product 1.</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <span class="price">$19.99</span>
-                                <a href="#" class="btn btn-primary">Buy Now</a>
+                                <a href="buy-now.php" class="btn btn-primary">Buy Now</a>
                                 <a href="#" class="btn btn-primary">Add to Cart</a>
                             </div>
                         </div>
